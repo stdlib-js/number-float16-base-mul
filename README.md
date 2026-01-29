@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mul from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-mul@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-float16-base-mul/tags). For example,
+
+```javascript
 import mul from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-mul@v0.1.0-esm/index.mjs';
 ```
 
@@ -104,7 +109,7 @@ v = mul( NaN, NaN );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import mul from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-mul@v0.1.0-esm/index.mjs';
+import mul from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-mul@esm/index.mjs';
 
 var x = discreteUniform( 100, -50, 50 );
 var y = discreteUniform( 100, -50, 50 );
